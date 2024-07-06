@@ -236,6 +236,7 @@ img {
   animation: control-width 3s steps(19) 1s both, blink 0.5s infinite;
 }
 
+
 @keyframes control-width {
   from {
     width: 0;
@@ -254,6 +255,35 @@ img {
   to {
     border-right-color: transparent;
   }
+}
+
+@media screen and (max-width: 966px) {
+  .home__title p {
+    font-size: 18px;
+    width: 200px;
+    animation: control-width 3s steps(19) 1s both, blink 0.5s infinite;
+  }
+
+  @keyframes control-width {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 200px;
+    }
+  }
+
+  @keyframes blink {
+    from {
+      border-right-color: var(--main-color);
+    }
+
+    to {
+      border-right-color: transparent;
+    }
+  }
+
 }
 
 /* | */
@@ -497,11 +527,9 @@ img {
   .home__img {
     width: 200px;
   }
-
-
-
-
 }
+
+
 
 @media screen and (min-width: 576px) {
   .home {
@@ -551,6 +579,8 @@ img {
   .contact__container {
     justify-items: center;
   }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -623,6 +653,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+
 }
 
 @media screen and (min-width: 992px) {
