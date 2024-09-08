@@ -121,7 +121,7 @@ span.onclick = function () {
 // contactForm.addEventListener("submit", sendEmail);
 
 var typing = new Typed(".type", {
-  strings: ["Front-End Developer", "WordPress"],
+  strings: ["Front-End Developer", "Word-Press"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
