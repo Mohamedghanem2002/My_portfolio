@@ -51,7 +51,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2000,
   delay: 200,
-  reset: true
+  //     reset: true
 });
 
 sr.reveal(".home__data, .about__img, .skills__subtitle, .skills__text", {});
@@ -121,7 +121,7 @@ span.onclick = function () {
 // contactForm.addEventListener("submit", sendEmail);
 
 var typing = new Typed(".type", {
-  strings: ["Front-End Developer", "Word-Press"],
+  strings: ["Front-End Developer", "Problem Solving"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
