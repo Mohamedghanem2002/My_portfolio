@@ -352,7 +352,7 @@ margin-bottom: auto;
 
  @media screen and (max-width: 575px) {
   .home__img{
-    height: 50%;
+    height: 45%;
   }
  }
 
@@ -382,13 +382,22 @@ margin-bottom: auto;
 }
 
 .about__img {
-  justify-self: center;
+  /* justify-self: center; */
+  /* margin-right: auto; */
 }
 
 .about__img img {
   width: 200px;
   border-radius: .5rem;
+  
 }
+
+ @media screen and (max-width: 575px) {
+  .about__img {
+      justify-self: center;
+      /* margin-right: auto; */
+    }
+ }
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -456,6 +465,7 @@ margin-bottom: auto;
 
 .skills__img {
   border-radius: .5rem;
+  
   
 }
 
